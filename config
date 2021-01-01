@@ -4,9 +4,6 @@ rofi.modi:										window,run,drun
 ! "Window width" Set from: Default
 rofi.width:										60
 
-! "Number of lines" Set from: Default
-! rofi.lines:									15
-
 ! "Number of columns" Set from: Default
 rofi.columns:									3
 
@@ -16,8 +13,11 @@ rofi.font:										mono 17
 ! "Border width" Set from: Default
 rofi.bw:											5
 
-! "Location on screen" Set from: Default
-! rofi.location:								0
+! "Whether to load and show icons" Set from: Default
+rofi.show-icons:								false
+
+! "Terminal to use" Set from: Default
+rofi.terminal:									termite
 
 ! "Padding" Set from: Default
 ! rofi.padding:								5
@@ -31,11 +31,14 @@ rofi.bw:											5
 ! "Always show number of lines" Set from: Default
 ! rofi.fixed-num-lines:						true
 
-! "Whether to load and show icons" Set from: Default
-rofi.show-icons:								false
+! "Set the matching algorithm. (normal, regex, glob, fuzzy)" Set from: Default
+rofi.matching:									fuzzy
 
-! "Terminal to use" Set from: Default
-rofi.terminal:									termite
+! "Location on screen" Set from: Default
+! rofi.location:								0
+
+! "Number of lines" Set from: Default
+! rofi.lines:									15
 
 ! "Ssh client to use" Set from: Default
 ! rofi.ssh-client:							ssh
@@ -111,9 +114,6 @@ rofi.terminal:									termite
 
 ! "Set the modi to combine in combi mode" Set from: Default
 ! rofi.combi-modi:                     window,run
-
-! "Set the matching algorithm. (normal, regex, glob, fuzzy)" Set from: Default
-! rofi.matching:                       fuzzy
 
 ! "Tokenize input string" Set from: Default
 ! rofi.tokenize:                       true
