@@ -17,7 +17,7 @@ rofi.bw:											5
 rofi.show-icons:								false
 
 ! "Terminal to use" Set from: Default
-rofi.terminal:									termite
+rofi.terminal:									alacritty
 
 ! "Padding" Set from: Default
 ! rofi.padding:								5
@@ -86,13 +86,13 @@ rofi.matching:									fuzzy
 ! rofi.ignored-prefixes:               
 
 ! "Use sorting" Set from: Default
-! rofi.sort:                           false
+rofi.sort:                           true
 
 ! "Choose the strategy used for sorting: normal (levenshtein) or fzf." Set from: Default
-! rofi.sorting-method:                 normal
+rofi.sorting-method:                 fzf
 
 ! "Set case-sensitivity" Set from: Default
-! rofi.case-sensitive:                 false
+rofi.case-sensitive:                 false
 
 ! "Cycle through the results list" Set from: Default
 ! rofi.cycle:                          true
