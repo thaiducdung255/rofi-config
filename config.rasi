@@ -1,19 +1,12 @@
 configuration {
 	modi:               "window,run,drun";
-	width:              60;
-	columns:            3;
 	font:               "mono 17";
-	bw:                 5;
 	show-icons:         false;
 	terminal:           "alacritty";
-	scrollbar-width:    4;
 	matching:           "fuzzy";
 	sort:               true;
-	casecase-sensitive: false;
+	case-sensitive:     false;
 	sorting-method:     "fzf";
-
-	theme:              "/usr/share/rofi/themes/solarized.rasi";
-
 	kb-primary-paste:   "Alt+v";
 	kb-clear-line:      "Alt+c";
 	kb-mode-next:       "Alt+l";
@@ -21,3 +14,4 @@ configuration {
 	kb-row-up:          "Alt+k";
 	kb-row-down:        "Alt+j";
 }
+@theme "/usr/share/rofi/themes/sidebar.rasi"
