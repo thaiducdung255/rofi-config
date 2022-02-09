@@ -1,1 +1,2 @@
-vi "$(/usr/bin/ls -d ~/Projects/*/* | rofi -dmenu -i -p "Projects")"
+#!/bin/bash
+vi "$(ls -d ~/Projects/*/* | rofi -dmenu -i -p "Project: ")"

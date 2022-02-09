@@ -1,6 +1,6 @@
 configuration {
 	modi:               "window,run,drun";
-	font:               "mono 17";
+	font:               "mono 12";
 	show-icons:         false;
 	terminal:           "alacritty";
 	matching:           "fuzzy";
