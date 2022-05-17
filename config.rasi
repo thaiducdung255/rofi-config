@@ -2,16 +2,16 @@ configuration {
 	modi:               "window,run,drun";
 	font:               "mono 12";
 	show-icons:         false;
-	terminal:           "alacritty";
+	terminal:           "kitty";
 	matching:           "fuzzy";
 	sort:               true;
 	case-sensitive:     false;
 	sorting-method:     "fzf";
 	kb-primary-paste:   "Alt+v";
-	kb-clear-line:      "Alt+c";
-	kb-mode-next:       "Alt+l";
+	kb-clear-line:      "Alt+l";
+	kb-mode-next:       "Alt+i";
 	kb-mode-previous:   "Alt+h";
-	kb-row-up:          "Alt+k";
-	kb-row-down:        "Alt+j";
+	kb-row-up:          "Alt+e";
+	kb-row-down:        "Alt+n";
 }
 @theme "/usr/share/rofi/themes/sidebar.rasi"
