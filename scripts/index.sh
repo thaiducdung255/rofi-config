@@ -3,13 +3,13 @@ mode=$(echo -e "Dotfiles\nSSH\nProjects\nWindows\nCMDs" | rofi -dmenu -i -p "Mod
 
 case $mode in
    Dotfiles)
-      alacritty --hold -e ~/.config/rofi/scripts/dotfiles.sh
+      kitty --hold -e ~/.config/rofi/scripts/dotfiles.sh
    ;;
    SSH)
-      alacritty -e ~/.config/rofi/scripts/ssh.sh
+      kitty -e ~/.config/rofi/scripts/ssh.sh
    ;;
    Projects)
-      alacritty -e ~/.config/rofi/scripts/projects.sh
+      kitty -e ~/.config/rofi/scripts/projects.sh
    ;;
    Windows)
       rofi -show window -display-window "Window: "
