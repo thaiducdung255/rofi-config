@@ -1,17 +1,19 @@
 configuration {
-	modi:               "window,run,drun";
-	font:               "FiraCode Nerd Font Mono 12";
-	show-icons:         false;
-	terminal:           "kitty";
-	matching:           "fuzzy";
-	sort:               true;
-	case-sensitive:     false;
-	sorting-method:     "fzf";
-	kb-primary-paste:   "Alt+v";
-	kb-clear-line:      "Alt+l";
-	kb-mode-next:       "Alt+i";
-	kb-mode-previous:   "Alt+h";
-	kb-row-up:          "Alt+e";
-	kb-row-down:        "Alt+n";
+	modi:                "window,run,drun";
+	font:                "FiraCode Nerd Font Mono 12";
+	show-icons:          false;
+	terminal:            "kitty";
+	matching:            "fuzzy";
+	sort:                true;
+	case-sensitive:      false;
+	sorting-method:      "fzf";
+	kb-primary-paste:    "Alt+v";
+	kb-clear-line:       "Alt+l";
+	kb-mode-next:        "Ctrl+i";
+	kb-remove-char-back: "Alt+h";
+	kb-mode-previous:    "Ctrl+h";
+	kb-move-end:         "Alt+e";
+	kb-row-up:           "Ctrl+e";
+	kb-row-down:         "Ctrl+n";
 }
 @theme "/usr/share/rofi/themes/sidebar.rasi"
