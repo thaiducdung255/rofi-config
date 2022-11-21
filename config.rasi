@@ -8,12 +8,12 @@ configuration {
 	case-sensitive:      false;
 	sorting-method:      "fzf";
 	kb-primary-paste:    "Alt+v";
-	kb-clear-line:       "Alt+l";
-	kb-mode-next:        "Ctrl+i";
-	kb-remove-char-back: "Alt+h";
-	kb-mode-previous:    "Ctrl+h";
-	kb-move-end:         "Alt+e";
-	kb-row-up:           "Ctrl+e";
-	kb-row-down:         "Ctrl+n";
+	kb-mode-next:        "Ctrl+i,Alt+i";
+	kb-mode-previous:    "Ctrl+h,Alt+h";
+	kb-row-up:           "Ctrl+e,Alt+e";
+	kb-row-down:         "Ctrl+n,Alt+n";
+	kb-remove-char-back: "BackSpace";
+	kb-move-end: "";
 }
+
 @theme "/usr/share/rofi/themes/sidebar.rasi"
